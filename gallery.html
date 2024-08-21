@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon" href="./images/coffee_logo.png" type="image/x-icon">
+</head>
+<style>
+    .header{
+        top:0
+    }
+    #gallery{
+        margin-top:83px;
+        
+    }
+ 
+    
+</style>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="nav">
+                <div class="logo">
+                    <img src="./images/coffee_logo.png" alt="">
+                    <a href="index.html">COFFEE</a>
+                </div>
+                <div class="navbar">
+                    <ul class="navlist">
+                        <li><a href="./index.html">Home</a></li>
+                        <li><a href="./about.html">About</a></li>
+                        <li><a href="./service.html">Services</a></li>
+                        <li><a href="./why.html">Why Us</a></li>
+                        <li><a href="./gallery.html">Gallery</a></li>
+                        <li><a href="./contact.html">Contact</a></li>
+                    </ul>
+
+                </div>
+                <div class="menu-btn">
+                    <img src="./images/menu-btn.png" alt="">
+                </div>
+
+
+            </div>
+        </div>
+    </header>
+    <section id="gallery">
+        <div class="container">
+            <div class="gallery-head">
+                <h1>Gallery</h1>
+                <div class="line"></div>
+            </div>
+            <div class="gallerys">
+                <div class="gallery">
+                    <img src="./images/gallery_1.jpg" alt="">
+                </div>
+                <div class="gallery">
+                    <img src="./images/gallery_2.jpg" alt="">
+                </div>
+                <div class="gallery">
+                    <img src="./images/gallery_3.jpg" alt="">
+                </div>
+                <div class="gallery">
+                    <img src="./images/gallery_4.jpg" alt="">
+                </div>
+                <div class="gallery">
+                    <img src="./images/gallery_5.jpg" alt="">
+                </div>
+                <div class="gallery">
+                    <img src="./images/gallery_6.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+      <!-- footer -->
+
+      <footer>
+        <div class="container">
+            <div class="footer">
+                <div class="fot-logo">
+                    <img src="./images/coffee_logo.png" alt="">
+                    <a href="./index.html">COFFEE</a>
+                </div>
+
+                <div class="useful-links">
+                    <h3>Usefull Links</h3>
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./about.html">About</a></li>
+                    <li><a href="./service.html">Services</a></li>
+                    <li><a href="./why.html">Why Us</a></li>
+                    <li><a href="./gallery.html">Gallery</a></li>
+                    <li><a href="./contact.html">Contact</a></li>
+                </div>
+                <div class="fot-contacts">
+                    <h3>Contacts</h3>
+                    <div class="fot-contact">
+                        <img src="./images/location.png" alt="">
+                        <h4>Berndorf, Germany</h4>
+                    </div>
+                    <div class="fot-contact">
+                        <img src="./images/phone.png" alt="">
+                        <h4>+01 92728239</h4>
+                    </div>
+
+                </div>
+                <div class="follow">
+                    <h3>Follow</h3>
+
+                    <div class="follow-img">
+                        <img src="./images/linkedin.png" alt="">
+                        <img src="./images/video.png" alt="">
+                        <img src="./images/facebook.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+      <!-- script -->
+      <script>
+        const menubtn = document.querySelector('.menu-btn')
+        const navlist = document.querySelector('.navbar')
+        menubtn.addEventListener('click', () => {
+            navlist.classList.toggle('active')
+        })
+
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon" href="./images/coffee_logo.png" type="image/x-icon">
+</head>
+<style>
+    .header{
+        top:0
+    }
+    #whyus{
+        margin-top:83px;
+        
+    }
+    .whyus{
+        min-height: calc(100vh - 271px);
+    }
+ 
+    
+</style>
+<body>
+    <header>
+        <div class="container">
+            <div class="nav">
+                <div class="logo">
+                    <img src="./images/coffee_logo.png" alt="">
+                    <a href="index.html">COFFEE</a>
+                </div>
+                <div class="navbar">
+                    <ul class="navlist">
+                        <li><a href="./index.html">Home</a></li>
+                        <li><a href="./about.html">About</a></li>
+                        <li><a href="./service.html">Services</a></li>
+                        <li><a href="./why.html">Why Us</a></li>
+                        <li><a href="./gallery.html">Gallery</a></li>
+                        <li><a href="./contact.html">Contact</a></li>
+                    </ul>
+
+                </div>
+                <div class="menu-btn">
+                    <img src="./images/menu-btn.png" alt="">
+                </div>
+
+
+            </div>
+        </div>
+    </header>
+
+    <section id="whyus">
+        <div class="container">
+            <div class="why-us">
+                <h1>Why Us ?</h1>
+                <div class="line"></div>
+            </div>
+            <div class="whyus">
+
+                <div class="whyus-card">
+                    <img src="./images/delicious.png" alt="">
+                    <h3>Delicious Food</h3>
+                    <p>With a lavish spread of finger licking food, we serve to satisfy your palate and take you on a
+                        culinary treat.</p>
+                </div>
+                <div class="whyus-card">
+                    <img src="./images/pleasant.png" alt="">
+                    <h3>Pleasant Ambiance</h3>
+                    <p>We seek to serve all our guests with the perfect dining experience. We provide perfect ambbience
+                        to cherish special moments.</p>
+                </div>
+                <div class="whyus-card">
+                    <img src="./images/hospitality.png" alt="">
+                    <h3>Hospitality</h3>
+                    <p>Our staff members are happy to help. We go the extra mile to make you happy.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+      <!-- footer -->
+
+      <footer>
+        <div class="container">
+            <div class="footer">
+                <div class="fot-logo">
+                    <img src="./images/coffee_logo.png" alt="">
+                    <a href="./index.html">COFFEE</a>
+                </div>
+
+                <div class="useful-links">
+                    <h3>Usefull Links</h3>
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./about.html">About</a></li>
+                    <li><a href="./service.html">Services</a></li>
+                    <li><a href="./why.html">Why Us</a></li>
+                    <li><a href="./gallery.html">Gallery</a></li>
+                    <li><a href="./contact.html">Contact</a></li>
+                </div>
+                <div class="fot-contacts">
+                    <h3>Contacts</h3>
+                    <div class="fot-contact">
+                        <img src="./images/location.png" alt="">
+                        <h4>Berndorf, Germany</h4>
+                    </div>
+                    <div class="fot-contact">
+                        <img src="./images/phone.png" alt="">
+                        <h4>+01 92728239</h4>
+                    </div>
+
+                </div>
+                <div class="follow">
+                    <h3>Follow</h3>
+
+                    <div class="follow-img">
+                        <img src="./images/linkedin.png" alt="">
+                        <img src="./images/video.png" alt="">
+                        <img src="./images/facebook.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+      <!-- script -->
+      <script>
+        const menubtn = document.querySelector('.menu-btn')
+        const navlist = document.querySelector('.navbar')
+        menubtn.addEventListener('click', () => {
+            navlist.classList.toggle('active')
+        })
+
+    </script>
+
+</body>
+
+</html>
